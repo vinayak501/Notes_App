@@ -6,6 +6,7 @@ const userRoutes = require('./routes/userRoutes');
 const noteRoutes = require('./routes/noteRoutes');
 const { notFound, errorHandler } = require("./middlewares/errorMiddleware");
 const path = require('path');
+const cors = require('cors');
 
 
 
@@ -13,6 +14,7 @@ const app =express();
 dotenv.config();
 connectDB();
 app.use(express.json());
+app.use(cors());
 
 
 app.use('/api/users',userRoutes);
