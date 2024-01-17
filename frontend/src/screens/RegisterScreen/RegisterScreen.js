@@ -3,7 +3,7 @@ import MainScreen from "../../components/MainScreen";
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import ErrorMessage from "../../components/ErrorMessage";
-import axios from "axios";
+// import axios from "axios";
 import Loading from "../../components/Loading";
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../../actions/userActions";
@@ -22,7 +22,7 @@ const RegisterScreen = () => {
 
   const dispatch = useDispatch();
   const userRegister = useSelector(state=>state.userRegister);
-  const {loading ,error , userInfo} = userRegister;
+  const {loading , userInfo} = userRegister;
 
   useEffect(()=>{
     if(userInfo){
