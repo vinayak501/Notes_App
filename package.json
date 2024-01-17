@@ -4,9 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
+    "server": "nodemon backend/server.js",
+    "start" : "node backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm start\" \"npm run client\""
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "build" : "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Vinayak Chavda",
   "license": "ISC",
