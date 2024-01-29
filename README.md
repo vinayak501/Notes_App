@@ -18,7 +18,7 @@ A Safe Place For All Your Important Notes
 
 ## Screen Shot 
 
-![Landing Page](frontend/ScreenShot/Landing Page.png)
+![Landing Page](frontend/ScreenShot/Landing_Page.png)
 
 ## Installation
 
