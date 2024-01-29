@@ -18,7 +18,20 @@ A Safe Place For All Your Important Notes
 
 ## Screen Shot 
 
+-Landing Page
 ![Landing Page](frontend/ScreenShot/Landing%20Page.png)
+
+-Register Page
+![Register Page](frontend/ScreenShot/Register%20Page.png)
+
+-Notes Page
+![Notes Page](frontend/ScreenShot/Notes%20Page.png)
+
+-Create Note
+![Create Note](frontend/ScreenShot/Create%20Note.png)
+
+-Profile 
+![Profile Page](frontend/ScreenShot/Profile.png)
 
 ## Installation
 
